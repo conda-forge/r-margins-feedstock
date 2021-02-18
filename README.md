@@ -5,11 +5,9 @@ Home: https://github.com/leeper/margins
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-margins-feedstock/blob/master/LICENSE.txt)
 
 Summary: An R port of Stata's 'margins' command, which can be used to calculate marginal (or partial) effects from model objects.
-
-
 
 Current build status
 ====================

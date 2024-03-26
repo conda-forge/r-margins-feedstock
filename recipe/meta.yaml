@@ -1,4 +1,4 @@
-{% set version = "0.3.26" %}
+{% set version = "0.3.26.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/margins_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/margins/margins_{{ version }}.tar.gz
-  sha256: 098c9dd136005c5e27808bf42102d47d141d4e18ca3a3a17fa3287ff97eca56b
+  sha256: 441218f4379d1c07a948e15e6cbd1deb3598c6debc4cd65046b3114b61a3c302
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

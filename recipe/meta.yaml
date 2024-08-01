@@ -1,4 +1,4 @@
-{% set version = "0.3.27" %}
+{% set version = "0.3.28" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/margins_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/margins/margins_{{ version }}.tar.gz
-  sha256: 936ab00a5a0540ee65194f5444f7f9169926730249dccfeab7a4f9ca2f7a9dca
+  sha256: 89c928898342300ea18bbce5309fa53c9a48c7a9297fd06ab284c9295ce99407
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
